@@ -1,32 +1,32 @@
 .row div {
-    border: 5px solid white;
-    height: 5rem;
+    border: 1vh solid white;
+    height: 4rem;
 }
-
 .row.blue div {
     background-color: blue;
 }
-
 .row.orange div {
     background-color: orange;
-    height:10em;
+    height:10rem;
 }
-
 .row.green div {
     background-color: green;
 }
-
 .row.red div {
     background-color: red;
-    height:7em;
+    height:6rem;
 }
-@media only screen and (min-width: 980px){
+@media only screen and (min-width: 1024px){
+    .row.blue div {
+        height: 6rem;
+    }
     .row.green div {
-        background-color: green;
         height:12em;
     }
     .row.orange div {
-        background-color: orange;
         height:15em;
+    }
+    .row.red div {
+        height: 8rem;
     }
 }
